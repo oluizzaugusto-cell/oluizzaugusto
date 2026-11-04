@@ -1,0 +1,44 @@
+{
+ "fio": {
+  "icone-marinho": "nobre-living-fio-icone-marinho.svg",
+  "icone-reducao-marinho": "nobre-living-fio-icone-reducao-marinho.svg",
+  "vertical-marinho": "nobre-living-fio-vertical-marinho.svg",
+  "horizontal-marinho": "nobre-living-fio-horizontal-marinho.svg",
+  "assinatura-marinho": "nobre-living-fio-assinatura-marinho.svg",
+  "vertical-assinatura-marinho": "nobre-living-fio-vertical-assinatura-marinho.svg",
+  "icone-offwhite": "nobre-living-fio-icone-offwhite.svg",
+  "icone-reducao-offwhite": "nobre-living-fio-icone-reducao-offwhite.svg",
+  "vertical-offwhite": "nobre-living-fio-vertical-offwhite.svg",
+  "horizontal-offwhite": "nobre-living-fio-horizontal-offwhite.svg",
+  "assinatura-offwhite": "nobre-living-fio-assinatura-offwhite.svg",
+  "vertical-assinatura-offwhite": "nobre-living-fio-vertical-assinatura-offwhite.svg"
+ },
+ "planta": {
+  "icone-marinho": "nobre-living-planta-icone-marinho.svg",
+  "icone-reducao-marinho": "nobre-living-planta-icone-reducao-marinho.svg",
+  "vertical-marinho": "nobre-living-planta-vertical-marinho.svg",
+  "horizontal-marinho": "nobre-living-planta-horizontal-marinho.svg",
+  "assinatura-marinho": "nobre-living-planta-assinatura-marinho.svg",
+  "vertical-assinatura-marinho": "nobre-living-planta-vertical-assinatura-marinho.svg",
+  "icone-offwhite": "nobre-living-planta-icone-offwhite.svg",
+  "icone-reducao-offwhite": "nobre-living-planta-icone-reducao-offwhite.svg",
+  "vertical-offwhite": "nobre-living-planta-vertical-offwhite.svg",
+  "horizontal-offwhite": "nobre-living-planta-horizontal-offwhite.svg",
+  "assinatura-offwhite": "nobre-living-planta-assinatura-offwhite.svg",
+  "vertical-assinatura-offwhite": "nobre-living-planta-vertical-assinatura-offwhite.svg"
+ },
+ "vao": {
+  "icone-marinho": "nobre-living-vao-icone-marinho.svg",
+  "icone-reducao-marinho": "nobre-living-vao-icone-reducao-marinho.svg",
+  "vertical-marinho": "nobre-living-vao-vertical-marinho.svg",
+  "horizontal-marinho": "nobre-living-vao-horizontal-marinho.svg",
+  "assinatura-marinho": "nobre-living-vao-assinatura-marinho.svg",
+  "vertical-assinatura-marinho": "nobre-living-vao-vertical-assinatura-marinho.svg",
+  "icone-offwhite": "nobre-living-vao-icone-offwhite.svg",
+  "icone-reducao-offwhite": "nobre-living-vao-icone-reducao-offwhite.svg",
+  "vertical-offwhite": "nobre-living-vao-vertical-offwhite.svg",
+  "horizontal-offwhite": "nobre-living-vao-horizontal-offwhite.svg",
+  "assinatura-offwhite": "nobre-living-vao-assinatura-offwhite.svg",
+  "vertical-assinatura-offwhite": "nobre-living-vao-vertical-assinatura-offwhite.svg"
+ }
+}
