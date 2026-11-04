@@ -52,7 +52,8 @@ def card(k):
 
 nav = "".join(f'<a href="#{k}">{sym(k, NAVY, 34, False, 3.4)}<span>{cr.C[k]["title"]}</span></a>' for k in ORDER)
 
-html = f'''<title>Nobre Living · Símbolos Autorais</title>
+def main():
+  html = f'''<title>Nobre Living · Símbolos Autorais</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Prata&family=Inter:wght@300;400;600&display=swap">
 <style>
@@ -155,5 +156,8 @@ h1, h2 {{ font-family: var(--display); font-weight: 400; color: var(--navy); mar
 </div></section>
 </main>
 '''
-open(sys.argv[2], "w").write(html)
-print("ok", len(html))
+  open(sys.argv[2], "w").write(html)
+  print("ok", len(html))
+
+if __name__ == "__main__":
+    main()

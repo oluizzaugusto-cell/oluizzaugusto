@@ -1,6 +1,6 @@
 # Identidade visual · Nobre Living
 
-Etapa atual: **estudo 3: símbolos autorais com a fonte Prata** (`estudo-simbolos-autorais.html`). Rodadas anteriores: `estudo-fonte-simbolo.html`, `refinamento.html` e `apresentacao.html`.
+Etapa atual: **estudo 4: variações do Portal** (`estudo-portal.html`). Rodadas anteriores: `estudo-simbolos-autorais.html`, `estudo-fonte-simbolo.html`, `refinamento.html` e `apresentacao.html`.
 
 - `refinamento.html`: página da Planta refinada (construção, versões A–E, testes, aplicações).
 - `marca/svg/`: versões oficiais em SVG, texto em curvas, nas cores marinho, off-white e grafite.
