@@ -1,6 +1,6 @@
 # Identidade visual · Nobre Living
 
-Etapa atual: **refinamento da direção Planta** (escolhida em 04/11/2026), com a essência do logo de 2025.
+Etapa atual: **estudo 2: fonte e símbolo "casa toda"** (`estudo-fonte-simbolo.html`). Rodadas anteriores: `refinamento.html` e `apresentacao.html`.
 
 - `refinamento.html`: página da Planta refinada (construção, versões A–E, testes, aplicações).
 - `marca/svg/`: versões oficiais em SVG, texto em curvas, nas cores marinho, off-white e grafite.
