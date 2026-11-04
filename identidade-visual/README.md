@@ -1,6 +1,6 @@
 # Identidade visual · Nobre Living
 
-Etapa atual: **estudo 4: variações do Portal** (`estudo-portal.html`). Rodadas anteriores: `estudo-simbolos-autorais.html`, `estudo-fonte-simbolo.html`, `refinamento.html` e `apresentacao.html`.
+Etapa atual: **kit final v1.0** em `kit/` (símbolo Portal com pendente e vaso, fonte Prata). Comece por `kit/LEIA-ME.md` e `kit/manual/nobre-living-manual-da-marca.pdf`.
 
 - `refinamento.html`: página da Planta refinada (construção, versões A–E, testes, aplicações).
 - `marca/svg/`: versões oficiais em SVG, texto em curvas, nas cores marinho, off-white e grafite.
@@ -16,3 +16,16 @@ cd identidade-visual/_fonte
 python3 marca.py <pasta-das-fontes> ../marca/svg
 python3 refinamento.py <pasta-das-fontes> ../refinamento.html <miniatura-do-logo-antigo.jpg>
 ```
+
+## Kit final
+
+```bash
+cd identidade-visual/_fonte
+python3 kit_logos.py <pasta-das-fontes> ../kit        # SVGs A–E
+node kit_png.js ../kit                                # PNGs, favicon, marca d'água
+python3 kit_templates.py ../kit                       # modelos
+node kit_previa.js <pasta-das-fontes> ../kit          # prévias dos modelos
+python3 kit_manual.py <pasta-das-fontes> ../kit       # manual (HTML) → exportar PDF com o Chromium
+```
+
+Fontes usadas: Prata 400 e Inter 300–600 (TTF estático do Google Fonts).
