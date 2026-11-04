@@ -1,15 +1,18 @@
 # Identidade visual · Nobre Living
 
-Etapa atual: **escolha de direção** (3 propostas).
+Etapa atual: **refinamento da direção Planta** (escolhida em 04/11/2026), com a essência do logo de 2025.
 
-- `apresentacao.html`: página de apresentação das direções Fio, Planta e Vão.
-- `direcoes/<direcao>/`: SVGs de cada direção (ícone, ícone de redução, vertical, horizontal, assinatura), em marinho e off-white. Texto em curvas.
-- `_fonte/gerar.py` e `_fonte/pagina.py`: scripts que geram os SVGs e a página.
+- `refinamento.html`: página da Planta refinada (construção, versões A–E, testes, aplicações).
+- `marca/svg/`: versões oficiais em SVG, texto em curvas, nas cores marinho, off-white e grafite.
+  `nobre-living-[vertical|horizontal|icone|icone-reducao|assinatura|vertical-assinatura]-[cor].svg`
+- `apresentacao.html` e `direcoes/`: rodada anterior com as três direções (Fio, Planta, Vão).
+- `referencia/logo-2025-raster.jpg`: logo antigo, só raster.
+- `_fonte/`: scripts que geram tudo (`simbolo.py`, `marca.py`, `refinamento.py`, `gerar.py`, `pagina.py`).
 
-Para regenerar (precisa de `fonttools` e das fontes Bodoni Moda opsz 28 / Inter em TTF estático):
+Para regenerar (precisa de `fonttools` e das fontes Bodoni Moda opsz 28 e Inter em TTF estático):
 
 ```bash
 cd identidade-visual/_fonte
-python3 gerar.py <pasta-das-fontes> ../direcoes
-python3 pagina.py <pasta-das-fontes> ../apresentacao.html
+python3 marca.py <pasta-das-fontes> ../marca/svg
+python3 refinamento.py <pasta-das-fontes> ../refinamento.html <miniatura-do-logo-antigo.jpg>
 ```
